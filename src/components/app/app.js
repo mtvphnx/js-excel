@@ -1,11 +1,11 @@
-import {$} from "@core";
+import {$} from '@core'
 
 import styles from './app.module.scss'
 
 export class App {
     constructor(selector, options) {
-        this.$element = $(selector);
-        this.components = options.components || [];
+        this.$element = $(selector)
+        this.components = options.components || []
     }
 
     createElement() {

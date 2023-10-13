@@ -20,11 +20,11 @@ class Dom {
     }
 
     on(event, callback) {
-        this.$element.addEventListener(event, callback);
+        this.$element.addEventListener(event, callback)
     }
 
     off(event, callback) {
-        this.$element.removeEventListener(event, callback);
+        this.$element.removeEventListener(event, callback)
     }
 
     append(node) {

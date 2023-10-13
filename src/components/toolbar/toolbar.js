@@ -9,7 +9,7 @@ export class Toolbar extends Component {
         super($root, {
             name: 'Toolbar',
             listeners: ['click']
-        });
+        })
     }
 
     clickHandler = () => {
@@ -17,6 +17,6 @@ export class Toolbar extends Component {
     }
 
     toHTML() {
-        return `<div>toolbar</div>`;
+        return `<div>toolbar</div>`
     }
 }

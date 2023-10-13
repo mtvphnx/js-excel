@@ -9,7 +9,7 @@ export class Formula extends Component {
         super($root, {
             name: 'Formula',
             listeners: ['click']
-        });
+        })
     }
 
     clickHandler = () => {
@@ -17,6 +17,6 @@ export class Formula extends Component {
     }
 
     toHTML() {
-        return `<div>formula</div>`;
+        return `<div>formula</div>`
     }
 }

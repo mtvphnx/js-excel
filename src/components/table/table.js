@@ -1,4 +1,5 @@
 import {Component} from '@core'
+import {createTable} from './table.template.js'
 
 import styles from './table.module.scss'
 
@@ -9,7 +10,7 @@ export class Table extends Component {
         super($root, {
             name: 'Table',
             listeners: ['click']
-        });
+        })
     }
 
     clickHandler = () => {
@@ -17,6 +18,6 @@ export class Table extends Component {
     }
 
     toHTML() {
-        return `<div>table</div>`;
+        return createTable()
     }
 }

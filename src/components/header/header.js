@@ -1,6 +1,6 @@
 import {Component} from '@core'
 
-import styles from "./header.module.scss"
+import styles from './header.module.scss'
 
 export class Header extends Component{
     static className = styles.header
@@ -9,7 +9,7 @@ export class Header extends Component{
         super($root, {
             name: 'Header',
             listeners: ['click']
-        });
+        })
     }
 
     clickHandler = () => {
@@ -17,6 +17,6 @@ export class Header extends Component{
     }
 
     toHTML() {
-        return `<div>header</div>`;
+        return `<div>header</div>`
     }
 }
