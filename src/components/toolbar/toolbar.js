@@ -12,7 +12,11 @@ export class Toolbar extends Component {
         });
     }
 
+    clickHandler = () => {
+        console.log('click toolbar')
+    }
+
     toHTML() {
-        return `<div>Тулбар</div>`;
+        return `<div>toolbar</div>`;
     }
 }

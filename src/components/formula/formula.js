@@ -12,11 +12,11 @@ export class Formula extends Component {
         });
     }
 
-    onClick(event) {
-        console.log('click formula', event)
+    clickHandler = () => {
+        console.log('click formula')
     }
 
     toHTML() {
-        return `<div>Формула</div>`;
+        return `<div>formula</div>`;
     }
 }

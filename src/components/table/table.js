@@ -12,7 +12,11 @@ export class Table extends Component {
         });
     }
 
+    clickHandler = () => {
+        console.log('click table')
+    }
+
     toHTML() {
-        return `<div>Таблица</div>`;
+        return `<div>table</div>`;
     }
 }

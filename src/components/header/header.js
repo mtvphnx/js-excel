@@ -12,7 +12,11 @@ export class Header extends Component{
         });
     }
 
+    clickHandler = () => {
+        console.log('click header')
+    }
+
     toHTML() {
-        return `<div>Шапка</div>`;
+        return `<div>header</div>`;
     }
 }

@@ -11,4 +11,8 @@ export class Component extends Listener {
     init() {
         this.initListeners()
     }
+
+    destroy() {
+        this.removeListeners()
+    }
 }
